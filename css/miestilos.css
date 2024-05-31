@@ -1,0 +1,40 @@
+.titulo{
+    font-size: 30px;
+    text-align:center;
+}
+
+body{
+    background: rgb(128, 227, 240);
+}
+
+#navegacion{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(231, 6, 175, 0.932);
+}
+#titulo{
+    text-shadow: 2px 2px 4px #f700cd;
+    font-size: 50px;
+    text-align: center;
+    margin-top:10 px
+
+}
+#noticiaslocales{
+    font-size:15px;
+    font-family: Cursive, Helvetica, sans-serif;
+}
+
+span{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font: weight 1000 ;
+}
+#libro{
+border-style:solid ;
+border-radius: 16px;
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-width: 5px;
+width: 30%;
+}
