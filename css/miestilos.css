@@ -4,17 +4,19 @@
 }
 
 body {
-    background: rgb(128, 227, 240);
+    background: rgb(188, 196, 196);
 }
 
 #navegacion {
     font-size: 20px;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(231, 6, 175, 0.932);
+    text-shadow: 2px 2px 4px rgba(160, 4, 4, 0.932);
+    color: #680606;
+    text-decoration: none;
 }
 
 #titulo {
-    text-shadow: 2px 2px 4px #f700cd;
+    text-shadow: 2px 2px 4px #910a0a;
     font-size: 50px;
     text-align: center;
     margin-top: 10 px
@@ -58,7 +60,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #46052d;
+    background-color: #680606;
     color: white;
     text-align: center;
     padding: 10px;
@@ -76,6 +78,38 @@ h3 {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(83, 4, 4);
     border-collapse: collapse;
   }
+  #contacto
+{
+    margin: 60px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(160, 4, 4, 0.932);
+    color: #680606;
+}
+
+#videos{
+align-content: space-between;
+}
+
+#Dahmer{
+margin-right: 56px;
+
+
+}
+#it {
+    margin-left: 660px;
+    
+}
+
+
+
+
+
