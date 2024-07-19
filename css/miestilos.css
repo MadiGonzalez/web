@@ -1,6 +1,7 @@
 .titulo {
     font-size: 30px;
     text-align: center;
+    color: #500000;
 }
 
 body {
@@ -99,17 +100,28 @@ a {
 align-content: space-between;
 }
 
-#Dahmer{
-margin-right: 56px;
+#carrie{
+margin-right: 25px;
 
 
 }
 #it {
-    margin-left: 660px;
+    margin-left: 500px;
     
 }
 
+h2{
+    text-align: 60px;
+}
+#calendario
+{
+    margin-left: 60px;
+}
 
+#micolor 
+{
+    margin-left: 60px;
 
+}
 
 

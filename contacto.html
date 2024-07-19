@@ -24,7 +24,7 @@
             <a href="contacto.html"> Contacto </a>
 
         </div>
-        <h3>informacion personal</h3>
+        <h2>informacion personal</h2>
         <br/>
         <div>
             <form name="formulario" method="get" action="procesar.html">
@@ -66,10 +66,11 @@
                     </label>
                 </p>
             </div>
-                <h3 >años de experiencia</h3>
+            <div>
+                <h2 >años de experiencia</h2>
               <br/>
               <p>
-                <label id="contacto" for="experiencia">experiencia
+                <label id="contacto" for="experiencia">
                 <input type="radio"name="experiencia" veluve="1"cheked>1 año
 
                 <label for="experiencia">experiencia
@@ -84,8 +85,34 @@
                     <input type="radio"name="experiencia" veluve="mas de 3">mas de 3 años
                 </label>
               </p>
+            </div>
+            <div>
+         <h2> fecha de nacimiento</h2>
+         <input id="calendario" type="date"name="fecha" veluve="2024-01-10">
+         </div>
+         <div>
+           <h2>Color</h2>
+        <input id="micolor"type="color" name="micolor" value="#910a0a">
+         </div>
+          
+         <label for="texto"><h2>texto</h2>
+            <textarea id="texto" name="texto" cols="50" rows="3"> </textarea>
+        </label>
+
+  <label for="listado"><h2>Libros:</h2></label>
+        <select name="libro" id="listado">
+        <option value="1">IT</option>
+        <option value="2">Carrie</option>
+        <option value="3">El resplandor</option>
+        <option value="4">Misery</option>
+        </select>
+        
+        <div>
+            <p><input type="submit" value="enviar"></p>
+        </div>
             </form>
     </main>
+    <br><br><br>
     <footer>
         <address>Alajuela, Costa Rica</address>
         <small>&copy; Derechos Reservados 2024</small>
@@ -93,3 +120,16 @@
 </body>
 
 </html>
+<script>
+window.onload = function(){
+  var fecha = new Date(); //Fecha actual
+  var mes = fecha.getMonth()+1; //obteniendo mes
+  var dia = fecha.getDate(); //obteniendo dia
+  var ano = fecha.getFullYear(); //obteniendo año
+  if(dia<10)
+    dia='0'+dia; //agrega cero si el menor de 10
+  if(mes<10)
+    mes='0'+mes //agrega cero si el menor de 10  
+ document.getElementById('calendario').value=ano+"-"+mes+"-"+dia;
+}
+ </script>
